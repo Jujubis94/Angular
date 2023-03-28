@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { BlockComponent } from './block/block.component';
 import { MonComposantComponent } from './mon-composant/mon-composant.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { DirectiveComponent } from './directive/directive.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BlockComponent,
     MonComposantComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    DirectiveComponent
   ],
   imports: [
     BrowserModule,FormsModule

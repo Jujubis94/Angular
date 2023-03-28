@@ -1,0 +1,11 @@
+.adminColor {
+    background-color: green;
+    text-align: center;
+}
+button {
+    margin-right: 0.5rem;
+}
+input {
+    display: block;
+    margin-top: 0.5rem;
+}

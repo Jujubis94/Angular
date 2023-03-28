@@ -1,0 +1,5 @@
+<h1 [ngClass]="{'adminColor' : isAdmin}">{{title}}</h1>
+<button (click)="alert()">View</button>
+<button (click)="addInput()" *ngIf="isAdmin">Edit</button>
+<button (click)="toggleAdmin()">{{isAdmin ? 'no longer be an admin' : 'become admin'}}</button>
+<input *ngIf="showInput" type="text" [(ngModel)]="title">
