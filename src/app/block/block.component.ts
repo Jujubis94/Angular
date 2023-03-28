@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./block.component.css']
 })
 export class BlockComponent {
-  title = "A B C";
+  title = "Bob";
 }

@@ -1,0 +1,9 @@
+<div>
+<img [src]="user.photo" alt="photo profile" />
+<p>Nom : {{ user.name }}</p>
+<p>Prenom : {{ user.firstName }}</p>
+<p [hidden]="showAge">Age : {{ user.age }}</p>
+<button (click)="toogleAge()">Me parle pas d'age</button>
+<p>Quote : {{ user.quote }}</p>
+<input type="text" [(ngModel)]="user.quote">
+</div>
