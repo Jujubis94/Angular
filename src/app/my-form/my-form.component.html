@@ -1,4 +1,4 @@
-<form #myForm="ngForm" (ngSubmit)="myForm.valid && onSubmit(myForm)">
+<form #myForm="ngForm" (ngSubmit)="myForm.valid && onSubmit()">
     <div>
         Form submitted : {{myForm.submitted}}
         Form valid : {{myForm.valid}}

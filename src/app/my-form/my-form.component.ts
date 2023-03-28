@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { User } from "./user";
 
@@ -8,9 +8,13 @@ import { User } from "./user";
   styleUrls: ['./my-form.component.css']
 })
 export class MyFormComponent {
-  onSubmit(myForm: NgForm): void {
+  // get element by id 
+  // cherche un id myForm pour remplir le myForm ici
+  @ViewChild('myForm')
+  myForm!: NgForm;
+  onSubmit(): void {
     console.log(this.model)
-    myForm.resetForm();
+    this.myForm.resetForm()
   }
   model: User = new User("", "", "", "");
 }
