@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { SignupComponent } from './signup/signup.component';
 import { MenuComponent } from './menu/menu.component';
+import { MyFormComponent } from './my-form/my-form.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MenuComponent } from './menu/menu.component';
     HomeComponent,
     ContactComponent,
     SignupComponent,
-    MenuComponent
+    MenuComponent,
+    MyFormComponent
   ],
   imports: [
     BrowserModule,FormsModule,RouterModule.forRoot(ROUTES)
