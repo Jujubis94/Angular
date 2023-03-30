@@ -1,0 +1,13 @@
+ul, li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    display: block;
+    margin: 0 auto;
+}
+.first {
+    color: red;
+}

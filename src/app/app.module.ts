@@ -14,9 +14,12 @@ import { ContactComponent } from './contact/contact.component';
 import { SignupComponent } from './signup/signup.component';
 import { MenuComponent } from './menu/menu.component';
 import { MyFormComponent } from './my-form/my-form.component';
+import { CustomDirectiveComponent } from './custom-directive/custom-directive.component';
+import { ShowDirectiveDirective } from './show-directive.directive';
+import { MovieDirective } from './movie.directive';
 
 @NgModule({
-  declarations: [
+  declarations: [			
     AppComponent,
     BlockComponent,
     MonComposantComponent,
@@ -26,8 +29,11 @@ import { MyFormComponent } from './my-form/my-form.component';
     ContactComponent,
     SignupComponent,
     MenuComponent,
-    MyFormComponent
-  ],
+    MyFormComponent,
+      CustomDirectiveComponent,
+      ShowDirectiveDirective,
+      MovieDirective
+   ],
   imports: [
     BrowserModule,FormsModule,RouterModule.forRoot(ROUTES)
   ],
