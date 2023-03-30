@@ -17,9 +17,10 @@ import { MyFormComponent } from './my-form/my-form.component';
 import { CustomDirectiveComponent } from './custom-directive/custom-directive.component';
 import { ShowDirectiveDirective } from './show-directive.directive';
 import { MovieDirective } from './movie.directive';
+import { SecondFilmDirective } from './secondFilm.directive';
 
 @NgModule({
-  declarations: [			
+  declarations: [				
     AppComponent,
     BlockComponent,
     MonComposantComponent,
@@ -32,7 +33,8 @@ import { MovieDirective } from './movie.directive';
     MyFormComponent,
       CustomDirectiveComponent,
       ShowDirectiveDirective,
-      MovieDirective
+      MovieDirective,
+      SecondFilmDirective
    ],
   imports: [
     BrowserModule,FormsModule,RouterModule.forRoot(ROUTES)
